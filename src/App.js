@@ -6,6 +6,7 @@ import Dashboard from './Components/Modules/Dashboard'
 import './App.css'
 import Camera from './Components/Modules/Camera'
 import Digital from './Components/Modules/Digital'
+import Videocamera from './Components/Modules/Videocamera'
 
 
 
@@ -19,6 +20,7 @@ function App() {
          <Route path='/' element={<Dashboard/>} />
          <Route path='/camera' element={<Camera/>}/>
          <Route path='/digital' element={<Digital/>}/>
+         <Route path='/videocamera' element={<Videocamera/>}/>
         </Routes>
       </Router>
     </div>

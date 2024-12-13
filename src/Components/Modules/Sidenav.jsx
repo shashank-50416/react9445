@@ -5,7 +5,7 @@ function Sidenav() {
   return (
     <div className='side'>
       <ul>
-        <Link to={"/dashboard"}><li>Dashboard</li></Link>
+        <Link to={""}><li>Dashboard</li></Link>
         <Link to={"/camera"}><li>Camera</li></Link>
         <Link to={"/lens"}><li>Lenses</li></Link>
         <Link to={"/accessories"}><li>Accessories</li></Link>
@@ -13,6 +13,7 @@ function Sidenav() {
         <Link to={"/digital"}><li>Digital</li></Link>
         <Link to={"/binoculars"}><li>Binoculars</li></Link>
       </ul>
+      <Link to="/login">LOGIN</Link>
     </div>
   );
 }
