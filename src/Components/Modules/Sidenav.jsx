@@ -5,7 +5,7 @@ function Sidenav() {
   return (
     <div className='side'>
       <ul>
-        <Link to={"/react"}><li>Dashboard</li></Link>
+        <Link to={"/react-9445"}><li>Dashboard</li></Link>
         <Link to={"/camera"}><li>Camera</li></Link>
         <Link to={"/lens"}><li>Lenses</li></Link>
         <Link to={"/accessories"}><li>Accessories</li></Link>

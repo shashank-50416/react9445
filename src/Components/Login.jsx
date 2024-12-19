@@ -19,7 +19,7 @@ function Login() {
             <input type="text" placeholder='Enter user name' className='form-control text-center' /><br />
             <input type="password" placeholder='Enter password' className='form-control text-center' /><br />
           </form>
-          <Link to="/react">
+          <Link to="/react-9445">
             <button type="submit" className="btn btn-primary w-100">
               Login
             </button>
