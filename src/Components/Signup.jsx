@@ -23,7 +23,7 @@ function Signup() {
             </button>
           </Link>
           <p>
-            Already have an account? <Link to="/">Login</Link>
+            Already have an account? <Link to="/react">Login</Link>
           </p>
         </Col>
         {/* Left Side - Animated Image */}

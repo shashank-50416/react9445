@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
-         <Route path='/' element={<Dashboard/>} />
+         <Route path='/react' element={<Dashboard/>} />
          <Route path='/camera' element={<Camera/>}/>
          <Route path='/digital' element={<Digital/>}/>
          <Route path='/videocamera' element={<Videocamera/>}/>
